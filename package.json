@@ -1,0 +1,25 @@
+{
+  "name": "storage-kv-sqlite",
+  "version": "1.0.0",
+  "description": "A Node.js key-value store built on node:sqlite, with a promise-based key-value API",
+  "main": "source/index.js",
+  "type": "commonjs",
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "test": "node --test --test-concurrency=1 \"test/**/*.test.js\"",
+    "test:watch": "node --test --watch --test-concurrency=1 \"test/**/*.test.js\"",
+    "bench": "node benchmark/benchmark.js",
+    "test:perf": "node --test --test-concurrency=1 benchmark/perf.test.js"
+  },
+  "keywords": [
+    "sqlite",
+    "key-value",
+    "store",
+    "database"
+  ],
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {}
+}
